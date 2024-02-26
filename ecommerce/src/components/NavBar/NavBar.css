@@ -1,5 +1,5 @@
 nav {
-    height: 120px;
+    height: 150px;
     padding: 0.4rem;
     background-color: #000;
     display: flex;
@@ -8,7 +8,7 @@ nav {
 }
 
 .sticker img {
-    width: 120px;
+    width: 150px;
     cursor: pointer;
     margin-left: 20px;
 
@@ -20,7 +20,12 @@ nav {
 
 .navContainer-1{
     color: #fff;
-    display: flex;
+    
+
+}
+
+.iconLocation{
+    color: #FF8C00;
 }
 
 nav ul li a {
