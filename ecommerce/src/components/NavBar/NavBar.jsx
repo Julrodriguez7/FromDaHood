@@ -5,6 +5,8 @@ import BurgerMenu from './BurgerMenu';
 import "./NavBar.css";
 import sticker from "./assets/FromDaHood.jpeg"
 
+import { SlLocationPin } from "react-icons/sl"
+
 
 
 const NavBar = () => {
@@ -23,7 +25,7 @@ const NavBar = () => {
                 </div>
 
                 <div className='navContainer-1'>
-                    <p>Direccion: Catamarca 583 - Rio Segundo Cordoba</p>
+                    <p> <SlLocationPin className='iconLocation' /> Catamarca 583 - Rio Segundo Cordoba</p>
                 </div>
 
                 <div className={` links ${clicked ? 'active' : ''}`}>                    
