@@ -12,20 +12,28 @@ nav {
     cursor: pointer;
     margin-left: 20px;
 
-        @media (max-width: 1150px){
+        @media (max-width: 778px){
             padding-left: 0;
             margin-left: 0;
         }
 }
 
 .navContainer-1{
-    color: #fff;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25px;
+    margin-bottom: 20px;
+}
 
+.navLocation{
+    color: #fff;
+    margin-right: 26px;
 }
 
 .iconLocation{
     color: #FF8C00;
+    font-size: larger;
 }
 
 nav ul li a {
@@ -51,7 +59,7 @@ nav ul li a:hover{
     margin-right: auto;
     text-align: center;
 
-    @media (min-width: 1150px) {
+    @media (min-width: 778px) {
         position: initial;
         margin: 0;
     }
@@ -62,7 +70,7 @@ nav ul li a:hover{
     font-size: 2rem;
     display: block;
 
-    @media (min-width: 1150px) {
+    @media (min-width: 778px) {
         font-size: 1rem;
         color: #fff;
         display: inline;
@@ -88,7 +96,7 @@ nav ul li a:hover{
 }
 
 .burger-menu {
-    @media (min-width: 1150px) {
+    @media (min-width: 778px) {
         display: none;
         
     }

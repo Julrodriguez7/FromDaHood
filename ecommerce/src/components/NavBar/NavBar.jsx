@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 import styled from 'styled-components';
 import BurgerMenu from './BurgerMenu';
@@ -25,18 +25,20 @@ const NavBar = () => {
                 </div>
 
                 <div className='navContainer-1'>
-                    <p> <SlLocationPin className='iconLocation' /> Catamarca 583 - Rio Segundo Cordoba</p>
-                </div>
+                    <div className='navLocation'>
+                        <p> <SlLocationPin className='iconLocation' /> Catamarca 583 - Río Segundo, Córdoba</p>
+                    </div>
 
-                <div className={` links ${clicked ? 'active' : ''}`}>                    
-                    <ul>
-                        <li>
-                            <a className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Shampoo</a>
-                            <a className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Acondicionador</a>
-                            <a className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Nutricion</a>
-                            <a className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Promos</a> 
-                        </li>
-                    </ul>
+                    <div className={` links ${clicked ? 'active' : ''}`}>
+                        <ul>
+                            <li>
+                                <a className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Shampoo</a>
+                                <a className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Acondicionador</a>
+                                <a className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Nutricion</a>
+                                <a className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Promos</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div className='burger-menu'>
