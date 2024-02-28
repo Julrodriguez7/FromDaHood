@@ -24,11 +24,13 @@ nav {
     align-items: flex-end;
     gap: 25px;
     margin-bottom: 20px;
+    padding-top: 15px;
 }
 
 .navLocation{
     color: #fff;
     margin-right: 26px;
+    
 }
 
 .iconLocation{
