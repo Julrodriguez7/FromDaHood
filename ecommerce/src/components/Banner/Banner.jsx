@@ -1,7 +1,7 @@
 
 import "./Banner.css";
-import { BsInstagram } from "react-icons/bs";
-import { BsWhatsapp } from "react-icons/bs";
+import insta from "./assets/instagram.png";
+import whats from "./assets/whatsapp.png";
 
 
 const Banner = () => {
@@ -11,10 +11,10 @@ const Banner = () => {
             <div className="banner-container"> 
                 <div className="banner-contacto-container">
                     <span className="banner-contacto">
-                        <BsInstagram /> fdh.barberia
+                        <img src={insta} alt="" /> fdh.barberia
                     </span>
                     <span className="banner-contacto">
-                        <BsWhatsapp /> 3572-533934
+                        <img src={whats} alt="" /> 3572-533934
                     </span>
                 </div>
             </div>
